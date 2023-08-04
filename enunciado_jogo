@@ -1,0 +1,20 @@
+Enunciado: 
+
+Jogo de Adivinhação Neste projeto, você deve criar um jogo de adivinhação onde o computador escolhe um número aleatório entre 1 e 100, e o jogador deve tentar adivinhar o número escolhido. 
+
+O jogo deve fornecer dicas ao jogador se o palpite for muito alto ou muito baixo em relação ao número secreto. O objetivo é que o jogador acerte o número com o menor número de tentativas possível. 
+
+Regras: 
+
+O computador deve gerar um número aleatório entre 1 e 100 (inclusivos). 
+O jogador deve fornecer um palpite para o número secreto. 
+O jogo deve informar se o palpite é muito alto, muito baixo ou correto. 
+
+O jogador deve continuar a adivinhar até acertar o número secreto. 
+O jogo deve manter o registro do número de tentativas do jogador. 
+
+Requisitos: 
+Use a função rand() para gerar números aleatórios. 
+Lembre-se de usar srand() para inicializar a semente. 
+Implemente funções para verificar se o palpite do jogador é muito alto, muito baixo ou correto. Exiba uma mensagem ao final do jogo informando ao jogador quantas tentativas foram necessárias para acertar o número. 
+Ofereça a opção de jogar novamente ao jogador. 
