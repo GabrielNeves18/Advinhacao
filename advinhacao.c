@@ -6,31 +6,30 @@ int main (){
     srand(time(NULL));
 
     int tentativas=1, numeroAleatorio, numEscolhido;
-    printf("Seja bem vindo ao nosso jogo de advinhacao!!");
-    printf("\n");
+    printf("Seja bem vindo ao nosso jogo de advinhacao!!\n\n");
+
 
     numeroAleatorio = 1 + rand() % 100;
 
     while (1){
         printf("Digite um numero entre 1 e 100: ");
         scanf("%i", &numEscolhido);
-        
-        if (numEscolhido >= 1 && numEscolhido <= 100){
-        
-            if (numEscolhido != numeroAleatorio && numEscolhido > numeroAleatorio){
-                printf("Numero muito alto!\n");
 
-                tentativas += 1; 
-                
-            }
-        
-            else if (numEscolhido != numeroAleatorio && numEscolhido < numeroAleatorio){
-                printf("Numero muito baixo!\n");
+        if (numEscolhido >= 1 && numEscolhido <= 100){
+
+            if (numEscolhido != numeroAleatorio && numEscolhido < numeroAleatorio){
+                printf("Tente um valor mais alto!\n");
 
                 tentativas += 1;
             }
 
-        
+            else if (numEscolhido != numeroAleatorio && numEscolhido > numeroAleatorio){
+                printf("Tente um valor mais baixo!\n");
+
+                tentativas += 1;
+            }
+
+
             else{
                 printf("Você encontrou o valor!!\n");
                 printf("Valor aleatorio %i\n", numeroAleatorio);
@@ -41,10 +40,10 @@ int main (){
             }
 
         }
-        
+
         else{
             printf("Valor incorreto!\n");
             continue;
-        }    
+        }
     }
 }
