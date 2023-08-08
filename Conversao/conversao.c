@@ -26,6 +26,7 @@ int main (){
     
 
         menu();
+        break;
     
     case 2:
         float quilometros, milhas, milFixo=1.609;
@@ -36,7 +37,7 @@ int main (){
         printf("O valor convertido eh %.2f", milhas);
 
         menu();
-
+        break;
     case 3:
 
         float kilos, libras, liFixos=2.205;
@@ -47,7 +48,7 @@ int main (){
         printf("O valor convertido eh %.2f", libras);
 
         menu();
-
+        break;
     case 4:
         float fahrenheita, fahFixo=32, celsiusa, tempaFixo=1.8;
         printf("Digite o valor de fahrenheit: ");
@@ -59,7 +60,7 @@ int main (){
         printf("O valor convertido eh %.2f\n", celsiusa);
 
         menu();
-
+        break;
     case 5:
         float quilometrosi, milhasi, miliFixo=1.609;
         printf("Digite o valor de milhas: ");
@@ -69,7 +70,7 @@ int main (){
         printf("O valor convertido eh %.2f", quilometrosi);
 
         menu();
-
+        break;
     case 6:
         float kilosi, librasi, liiFixos=2.205;
         printf("Digite o valor de quilos: ");
@@ -79,7 +80,7 @@ int main (){
         printf("O valor convertido eh %.2f", libras);
 
         menu();
-
+        break;
     case 0:
         printf("OBRIGADO POR PARTICIPAR\n\n");
         break;
