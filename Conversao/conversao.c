@@ -74,7 +74,7 @@ int main (){
     case 6:
         float kilosi, librasi, liiFixos=2.205;
         printf("Digite o valor de quilos: ");
-        scanf("%f", &kilos);
+        scanf("%f", &kilosi);
 
        kilosi = librasi / liFixos;
         printf("O valor convertido eh %.2f", libras);
