@@ -81,6 +81,7 @@ int main (){
 
         menu();
         break;
+        return 0;
     case 0:
         printf("OBRIGADO POR PARTICIPAR\n\n");
         break;
