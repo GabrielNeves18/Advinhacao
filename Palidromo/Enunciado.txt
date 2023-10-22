@@ -1,0 +1,11 @@
+Enunciado para C: Verificador de Palíndromos
+
+Desenvolva um programa em C que peça ao usuário para inserir uma palavra e verifique se essa palavra é um palíndromo. 
+Um palíndromo é uma sequência que permanece a mesma quando lida de trás para frente. 
+Ignore espaços em branco e diferencie maiúsculas de minúsculas ao realizar a verificação. 
+Exiba uma mensagem indicando se a palavra é ou não um palíndromo.
+
+Exemplo de Resultado:
+
+Se o usuário inserir "radar", o programa deve responder que "radar" é um palíndromo. Se o usuário inserir "Código", 
+o programa deve indicar que "Código" não é um palíndromo.
